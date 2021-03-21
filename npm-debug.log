@@ -1,0 +1,416 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'solc@0.4.24' ]
+2 info using npm@1.1.62
+3 info using node@v0.8.10
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json D:\code\Inbox\package.json
+6 warn package.json Inbox@0.0.0 No README.md file found!
+7 verbose from cache D:\code\Inbox\package.json
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'solc@0.4.24', null ]
+10 silly cache add name=undefined spec="solc@0.4.24" args=["solc@0.4.24",null]
+11 verbose parsed url { pathname: 'solc@0.4.24',
+11 verbose parsed url   path: 'solc@0.4.24',
+11 verbose parsed url   href: 'solc@0.4.24' }
+12 silly cache add name="solc" spec="0.4.24" args=["solc","0.4.24"]
+13 verbose parsed url { pathname: '0.4.24', path: '0.4.24', href: '0.4.24' }
+14 verbose addNamed [ 'solc', '0.4.24' ]
+15 verbose addNamed [ '0.4.24', '0.4.24' ]
+16 silly lockFile 95397e22-solc-0-4-24 solc@0.4.24
+17 verbose lock solc@0.4.24 C:\Users\lenovo\AppData\Roaming\npm-cache\95397e22-solc-0-4-24.lock
+18 verbose url raw solc/0.4.24
+19 verbose url resolving [ 'https://registry.npm.taobao.org/', './solc/0.4.24' ]
+20 verbose url resolved https://registry.npm.taobao.org/solc/0.4.24
+21 info trying registry request attempt 1 at 15:41:52
+22 http GET https://registry.npm.taobao.org/solc/0.4.24
+23 http 200 https://registry.npm.taobao.org/solc/0.4.24
+24 silly registry.get cb [ 200,
+24 silly registry.get   { server: 'Tengine',
+24 silly registry.get     'content-type': 'application/json; charset=utf-8',
+24 silly registry.get     'content-length': '1857',
+24 silly registry.get     connection: 'keep-alive',
+24 silly registry.get     date: 'Sun, 21 Mar 2021 07:41:53 GMT',
+24 silly registry.get     'x-current-requests': '1',
+24 silly registry.get     vary: 'accept, accept-encoding',
+24 silly registry.get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+24 silly registry.get     etag: '"741-AgpPfOiR0mWz/lu78kbMWd+HNW8"',
+24 silly registry.get     'x-readtime': '6',
+24 silly registry.get     via: 'cn24.l1, kunlun10.cn24, l2cn3008.l2, cache26.l2cn3008, izbp127ruhn1gm9jws6c62z, cache26.l2cn3008[16,200-0,M], cache30.l2cn3008[32,0], kunlun10.cn24[35,34,200-0,M], kunlun7.cn24[36,0]',
+24 silly registry.get     'ali-swift-global-savetime': '1616312513',
+24 silly registry.get     age: '0',
+24 silly registry.get     'x-cache': 'MISS TCP_MISS dirn:-2:-2',
+24 silly registry.get     'x-swift-savetime': 'Sun, 21 Mar 2021 07:41:53 GMT',
+24 silly registry.get     'x-swift-cachetime': '120',
+24 silly registry.get     'timing-allow-origin': '*',
+24 silly registry.get     eagleid: '7ae122a716163125130696640e' } ]
+25 silly lockFile 04b2833f-rg-solc-download-solc-0-4-24-tgz https://registry.npm.taobao.org/solc/download/solc-0.4.24.tgz
+26 verbose lock https://registry.npm.taobao.org/solc/download/solc-0.4.24.tgz C:\Users\lenovo\AppData\Roaming\npm-cache\04b2833f-rg-solc-download-solc-0-4-24-tgz.lock
+27 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/solc/download/solc-0.4.24.tgz',
+27 verbose addRemoteTarball   '354f14b269b38cbaa82a47d1ff151723502b954e' ]
+28 info retry fetch attempt 1 at 15:41:52
+29 verbose fetch to= C:\Users\lenovo\AppData\Local\Temp\npm-20064\1616312512894-0.5713043434079736\tmp.tgz
+30 http GET https://registry.npm.taobao.org/solc/download/solc-0.4.24.tgz
+31 http 200 https://registry.npm.taobao.org/solc/download/solc-0.4.24.tgz
+32 silly shasum updated bytes 40960
+33 silly shasum updated bytes 40960
+34 silly shasum updated bytes 40960
+35 silly shasum updated bytes 40960
+36 silly shasum updated bytes 40960
+37 silly shasum updated bytes 40960
+38 silly shasum updated bytes 40960
+39 silly shasum updated bytes 40960
+40 silly shasum updated bytes 40960
+41 silly shasum updated bytes 40960
+42 silly shasum updated bytes 40960
+43 silly shasum updated bytes 40960
+44 silly shasum updated bytes 40960
+45 silly shasum updated bytes 40960
+46 silly shasum updated bytes 40960
+47 silly shasum updated bytes 40960
+48 silly shasum updated bytes 40960
+49 silly shasum updated bytes 40960
+50 silly shasum updated bytes 40960
+51 silly shasum updated bytes 40960
+52 silly shasum updated bytes 40960
+53 silly shasum updated bytes 40960
+54 silly shasum updated bytes 40960
+55 silly shasum updated bytes 40960
+56 silly shasum updated bytes 40960
+57 silly shasum updated bytes 40960
+58 silly shasum updated bytes 40960
+59 silly shasum updated bytes 40960
+60 silly shasum updated bytes 40960
+61 silly shasum updated bytes 40960
+62 silly shasum updated bytes 40960
+63 silly shasum updated bytes 40960
+64 silly shasum updated bytes 40960
+65 silly shasum updated bytes 40960
+66 silly shasum updated bytes 40960
+67 silly shasum updated bytes 40960
+68 silly shasum updated bytes 40960
+69 silly shasum updated bytes 40960
+70 silly shasum updated bytes 40960
+71 silly shasum updated bytes 40960
+72 silly shasum updated bytes 40960
+73 silly shasum updated bytes 40960
+74 silly shasum updated bytes 40960
+75 silly shasum updated bytes 3673
+76 info shasum 354f14b269b38cbaa82a47d1ff151723502b954e
+76 info shasum C:\Users\lenovo\AppData\Local\Temp\npm-20064\1616312512894-0.5713043434079736\tmp.tgz
+77 verbose tar unpack C:\Users\lenovo\AppData\Local\Temp\npm-20064\1616312512894-0.5713043434079736\tmp.tgz
+78 silly lockFile 9627fab8-12894-0-5713043434079736-package C:\Users\lenovo\AppData\Local\Temp\npm-20064\1616312512894-0.5713043434079736\package
+79 verbose lock C:\Users\lenovo\AppData\Local\Temp\npm-20064\1616312512894-0.5713043434079736\package C:\Users\lenovo\AppData\Roaming\npm-cache\9627fab8-12894-0-5713043434079736-package.lock
+80 silly gunzTarPerm modes [ '755', '644' ]
+81 silly gunzTarPerm extractEntry package.json
+82 silly gunzTarPerm extractEntry abi.js
+83 silly gunzTarPerm extractEntry index.js
+84 silly gunzTarPerm extractEntry LICENSE
+85 silly gunzTarPerm extractEntry linker.js
+86 silly gunzTarPerm extractEntry README.md
+87 silly gunzTarPerm extractEntry solcjs
+88 silly gunzTarPerm extractEntry soljson.js
+89 silly gunzTarPerm extractEntry translate.js
+90 silly gunzTarPerm extractEntry wrapper.js
+91 verbose read json C:\Users\lenovo\AppData\Local\Temp\npm-20064\1616312512894-0.5713043434079736\package\package.json
+92 silly lockFile 9627fab8-12894-0-5713043434079736-package C:\Users\lenovo\AppData\Local\Temp\npm-20064\1616312512894-0.5713043434079736\package
+93 verbose from cache C:\Users\lenovo\AppData\Local\Temp\npm-20064\1616312512894-0.5713043434079736\package\package.json
+94 verbose tar pack [ 'C:\\Users\\lenovo\\AppData\\Roaming\\npm-cache\\solc\\0.4.24\\package.tgz',
+94 verbose tar pack   'C:\\Users\\lenovo\\AppData\\Local\\Temp\\npm-20064\\1616312512894-0.5713043434079736\\package' ]
+95 verbose tarball C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package.tgz
+96 verbose folder C:\Users\lenovo\AppData\Local\Temp\npm-20064\1616312512894-0.5713043434079736\package
+97 silly lockFile c8293ad4-pm-cache-solc-0-4-24-package-tgz C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package.tgz
+98 verbose lock C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package.tgz C:\Users\lenovo\AppData\Roaming\npm-cache\c8293ad4-pm-cache-solc-0-4-24-package-tgz.lock
+99 silly lockFile c8293ad4-pm-cache-solc-0-4-24-package-tgz C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package.tgz
+100 silly lockFile 0fa27d73-ng-npm-cache-solc-0-4-24-package C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package
+101 verbose lock C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package C:\Users\lenovo\AppData\Roaming\npm-cache\0fa27d73-ng-npm-cache-solc-0-4-24-package.lock
+102 silly lockFile 0fa27d73-ng-npm-cache-solc-0-4-24-package C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package
+103 verbose tar unpack C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package.tgz
+104 silly lockFile 0fa27d73-ng-npm-cache-solc-0-4-24-package C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package
+105 verbose lock C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package C:\Users\lenovo\AppData\Roaming\npm-cache\0fa27d73-ng-npm-cache-solc-0-4-24-package.lock
+106 silly gunzTarPerm modes [ '755', '644' ]
+107 silly gunzTarPerm extractEntry package.json
+108 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+109 silly gunzTarPerm extractEntry README.md
+110 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+111 silly gunzTarPerm extractEntry abi.js
+112 silly gunzTarPerm modified mode [ 'abi.js', 438, 420 ]
+113 silly gunzTarPerm extractEntry index.js
+114 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+115 silly gunzTarPerm extractEntry linker.js
+116 silly gunzTarPerm modified mode [ 'linker.js', 438, 420 ]
+117 silly gunzTarPerm extractEntry soljson.js
+118 silly gunzTarPerm modified mode [ 'soljson.js', 438, 420 ]
+119 silly gunzTarPerm extractEntry translate.js
+120 silly gunzTarPerm modified mode [ 'translate.js', 438, 420 ]
+121 silly gunzTarPerm extractEntry wrapper.js
+122 silly gunzTarPerm modified mode [ 'wrapper.js', 438, 420 ]
+123 silly gunzTarPerm extractEntry solcjs
+124 silly gunzTarPerm modified mode [ 'solcjs', 438, 420 ]
+125 verbose read json C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package\package.json
+126 silly lockFile 0fa27d73-ng-npm-cache-solc-0-4-24-package C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package
+127 silly shasum updated bytes 40960
+128 silly shasum updated bytes 40960
+129 silly shasum updated bytes 40960
+130 silly shasum updated bytes 40960
+131 silly shasum updated bytes 40960
+132 silly shasum updated bytes 40960
+133 silly shasum updated bytes 40960
+134 silly shasum updated bytes 40960
+135 silly shasum updated bytes 40960
+136 silly shasum updated bytes 40960
+137 silly shasum updated bytes 40960
+138 silly shasum updated bytes 40960
+139 silly shasum updated bytes 40960
+140 silly shasum updated bytes 40960
+141 silly shasum updated bytes 40960
+142 silly shasum updated bytes 40960
+143 silly shasum updated bytes 40960
+144 silly shasum updated bytes 40960
+145 silly shasum updated bytes 40960
+146 silly shasum updated bytes 40960
+147 silly shasum updated bytes 40960
+148 silly shasum updated bytes 40960
+149 silly shasum updated bytes 40960
+150 silly shasum updated bytes 40960
+151 silly shasum updated bytes 40960
+152 silly shasum updated bytes 40960
+153 silly shasum updated bytes 40960
+154 silly shasum updated bytes 40960
+155 silly shasum updated bytes 40960
+156 silly shasum updated bytes 40960
+157 silly shasum updated bytes 40960
+158 silly shasum updated bytes 40960
+159 silly shasum updated bytes 40960
+160 silly shasum updated bytes 40960
+161 silly shasum updated bytes 40960
+162 silly shasum updated bytes 40960
+163 silly shasum updated bytes 40960
+164 silly shasum updated bytes 40960
+165 silly shasum updated bytes 40960
+166 silly shasum updated bytes 40960
+167 silly shasum updated bytes 40960
+168 silly shasum updated bytes 40960
+169 silly shasum updated bytes 40960
+170 silly shasum updated bytes 2553
+171 info shasum f995d3de78032f2c1f4c1976c5f0a64c2ae45f2c
+171 info shasum C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package.tgz
+172 verbose from cache C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package\package.json
+173 verbose chmod C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package.tgz 644
+174 silly chown skipping for windows C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package.tgz
+175 silly lockFile 04b2833f-rg-solc-download-solc-0-4-24-tgz https://registry.npm.taobao.org/solc/download/solc-0.4.24.tgz
+176 silly lockFile 95397e22-solc-0-4-24 solc@0.4.24
+177 silly resolved [ { name: 'solc',
+177 silly resolved     version: '0.4.24',
+177 silly resolved     description: 'Solidity compiler',
+177 silly resolved     main: 'index.js',
+177 silly resolved     bin: { solcjs: 'solcjs' },
+177 silly resolved     scripts:
+177 silly resolved      { lint: 'semistandard',
+177 silly resolved        prepublish: 'node downloadCurrentVersion.js && node verifyVersion.js',
+177 silly resolved        pretest: 'npm run lint',
+177 silly resolved        test: 'tape ./test/index.js',
+177 silly resolved        coverage: 'istanbul cover node_modules/tape/bin/tape ./test/index.js',
+177 silly resolved        coveralls: 'npm run coverage && coveralls <coverage/lcov.info' },
+177 silly resolved     repository:
+177 silly resolved      { type: 'git',
+177 silly resolved        url: 'git+https://github.com/ethereum/solc-js.git' },
+177 silly resolved     keywords: [ 'ethereum', 'solidity', 'compiler' ],
+177 silly resolved     files:
+177 silly resolved      [ 'abi.js',
+177 silly resolved        'index.js',
+177 silly resolved        'linker.js',
+177 silly resolved        'solcjs',
+177 silly resolved        'soljson.js',
+177 silly resolved        'translate.js',
+177 silly resolved        'wrapper.js' ],
+177 silly resolved     author: { name: 'chriseth' },
+177 silly resolved     license: 'MIT',
+177 silly resolved     bugs: { url: 'https://github.com/ethereum/solc-js/issues' },
+177 silly resolved     homepage: 'https://github.com/ethereum/solc-js#readme',
+177 silly resolved     dependencies:
+177 silly resolved      { 'fs-extra': '^0.30.0',
+177 silly resolved        memorystream: '^0.3.1',
+177 silly resolved        'require-from-string': '^1.1.0',
+177 silly resolved        semver: '^5.3.0',
+177 silly resolved        yargs: '^4.7.1' },
+177 silly resolved     devDependencies:
+177 silly resolved      { coveralls: '^3.0.0',
+177 silly resolved        'ethereumjs-util': '^5.1.4',
+177 silly resolved        istanbul: '^0.4.5',
+177 silly resolved        semistandard: '^11.0.0',
+177 silly resolved        tape: '^4.5.1',
+177 silly resolved        'tape-spawn': '^1.4.2' },
+177 silly resolved     semistandard: { ignore: [Object] },
+177 silly resolved     readme: '[![Build Status](https://img.shields.io/travis/ethereum/solc-js.svg?branch=master&style=flat-square)](https://travis-ci.org/ethereum/solc-js)\n[![Coverage Status](https://img.shields.io/coveralls/ethereum/solc-js.svg?style=flat-square)](https://coveralls.io/r/ethereum/solc-js)\n\n# solc-js\nJavaScript bindings for the [Solidity compiler](https://github.com/ethereum/solidity).\n\nUses the Emscripten compiled Solidity found in the [solc-bin repository](https://github.com/ethereum/solc-bin).\n\n## Node.js Usage\n\nTo use the latest stable version of the Solidity compiler via Node.js you can install it via npm:\n\n```bash\nnpm install solc\n```\n\n### Usage on the Command-Line\n\nIf this package is installed globally (`npm install -g solc`), a command-line tool called `solcjs` will be available.\n\nTo see all the supported features, execute:\n\n```bash\nsolcjs --help\n```\n\nNote: this commandline interface is not compatible with `solc` provided by the Solidity compiler package and thus cannot be\nused in combination with an Ethereum client via the `eth.compile.solidity()` RPC method. Please refer to the\n[Solidity compiler documentation](https://solidity.readthedocs.io/) for instructions to install `solc`.\n\n### Usage in Projects\n\n#### From early versions\n\nIt can also be included and used in other projects:\n\n```javascript\nvar solc = require(\'solc\')\nvar input = \'contract x { function g() {} }\'\n// Setting 1 as second paramateractivates the optimiser\nvar output = solc.compile(input, 1)\nfor (var contractName in output.contracts) {\n\t// code and ABI that are needed by web3\n\tconsole.log(contractName + \': \' + output.contracts[contractName].bytecode)\n\tconsole.log(contractName + \'; \' + JSON.parse(output.contracts[contractName].interface))\n}\n```\n\n#### From version 0.1.6\n\nStarting from version 0.1.6, multiple files are supported with automatic import resolution by the compiler as follows:\n\n```javascript\nvar solc = require(\'solc\')\nvar input = {\n\t\'lib.sol\': \'library L { function f() returns (uint) { return 7; } }\',\n\t\'cont.sol\': \'import "lib.sol"; contract x { function g() { L.f(); } }\'\n}\nvar output = solc.compile({ sources: input }, 1)\nfor (var contractName in output.contracts)\n\tconsole.log(contractName + \': \' + output.contracts[contractName].bytecode)\n```\n\nNote that all input files that are imported have to be supplied, the compiler will not load any additional files on its own.\n\n#### From version 0.2.1\n\nStarting from version 0.2.1, a callback is supported to resolve missing imports as follows:\n\n```javascript\nvar solc = require(\'solc\')\nvar input = {\n\t\'cont.sol\': \'import "lib.sol"; contract x { function g() { L.f(); } }\'\n}\nfunction findImports (path) {\n\tif (path === \'lib.sol\')\n\t\treturn { contents: \'library L { function f() returns (uint) { return 7; } }\' }\n\telse\n\t\treturn { error: \'File not found\' }\n}\nvar output = solc.compile({ sources: input }, 1, findImports)\nfor (var contractName in output.contracts)\n\tconsole.log(contractName + \': \' + output.contracts[contractName].bytecode)\n```\n\nThe `compile()` method always returns an object, which can contain `errors`, `sources` and `contracts` fields. `errors` is a list of error mesages.\n\n#### From version 0.4.11\n\nStarting from version 0.4.11 there is a new entry point named `compileStandardWrapper()` which supports Solidity\'s [standard JSON input and output](https://solidity.readthedocs.io/en/develop/using-the-compiler.html#compiler-input-and-output-json-description). It also maps old compiler output to it.\n\n```javascript\nvar solc = require(\'solc\')\n\n// \'input\' is a JSON string corresponding to the "standard JSON input" as described in the link above\n// \'findImports\' works as described above\nvar output = solc.compileStandardWrapper(input, findImports)\n// Ouput is a JSON string corresponding to the "standard JSON output"\n```\n\nThere is also a direct method, `compileStandard`, which is only present on recent compilers and works the same way. `compileStandardWrapper` is preferred however because it provides the same interface for old compilers.\n\n#### From version 0.4.20\n\nStarting from version 0.4.20 a Semver compatible version number can be retrieved on every compiler release, including old ones, using the `semver()` method.\n\n### Using with Electron\n\n**Note:**\nIf you are using Electron, `nodeIntegration` is on for `BrowserWindow` by default. If it is on, Electron will provide a `require` method which will not behave as expected and this may cause calls, such as `require(\'solc\')`, to fail.\n\nTo turn off `nodeIntegration`, use the following:\n\n```javascript\nnew BrowserWindow({\n\twebPreferences: {\n\t\tnodeIntegration: false\n\t}\n})\n```\n\n### Using a Legacy Version\n\nIn order to compile contracts using a specific version of Solidity, the `solc.loadRemoteVersion(version, callback)` method is available. This returns a new `solc` object that uses a version of the compiler specified. \n\nYou can also load the "binary" manually and use `setupMethods` to create the familiar wrapper functions described above:\n`var solc = solc.setupMethods(require("/my/local/soljson.js"))`.\n\n### Using the Latest Development Snapshot\n\nBy default, the npm version is only created for releases. This prevents people from deploying contracts with non-release versions because they are less stable and harder to verify. If you would like to use the latest development snapshot (at your own risk!), you may use the following example code.\n\n```javascript\nvar solc = require(\'solc\')\n\n// getting the development snapshot\nsolc.loadRemoteVersion(\'latest\', function (err, solcSnapshot) {\n\tif (err) {\n\t\t// An error was encountered, display and quit\n\t}\n\tvar output = solcSnapshot.compile("contract t { function g() {} }", 1)\n})\n```\n\n### Linking Bytecode\n\nWhen using libraries, the resulting bytecode will contain placeholders for the real addresses of the referenced libraries. These have to be updated, via a process called linking, before deploying the contract.\n\nThe `linker` module (`require(\'solc/linker\')`) offers helpers to accomplish this.\n\nThe `linkBytecode` method provides a simple helper for linking:\n\n```javascript\nvar linker = require(\'solc/linker\')\n\nbytecode = linker.linkBytecode(bytecode, { \'MyLibrary\': \'0x123456...\' })\n```\n\n(Note: `linkBytecode` is also exposed via `solc` as `solc.linkBytecode`, but this usage is deprecated.)\n\nAs of Solidity 0.4.11 the compiler supports [standard JSON input and output](https://solidity.readthedocs.io/en/develop/using-the-compiler.html#compiler-input-and-output-json-description) which outputs a *link references* map. This gives a map of library names to offsets in the bytecode to replace the addresses at. It also doesn\'t have the limitation on library file and contract name lengths.\n\nThere is a method available in the `linker` module called `findLinkReferences` which can find such link references in bytecode produced by an older compiler:\n\n```javascript\nvar linker = require(\'solc/linker\')\n\nvar linkReferences = linker.findLinkReferences(bytecode)\n```\n\n### Updating the ABI\n\nThe ABI generated by Solidity versions can differ slightly, due to new features introduced.  There is a tool included which aims to translate the ABI generated by an older Solidity version to conform to the latest standard.\n\nIt can be used as:\n```javascript\nvar abi = require(\'solc/abi\')\n\nvar inputABI = [{"constant":false,"inputs":[],"name":"hello","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"}]\nvar outputABI = abi.update(\'0.3.6\', inputABI)\n// Output contains: [{"constant":false,"inputs":[],"name":"hello","outputs":[{"name":"","type":"string"}],"payable":true,"type":"function"},{"type":"fallback","payable":true}]\n\n```\n\n### Formatting old JSON assembly output\n\nThere is a helper available to format old JSON assembly output into a text familiar to earlier users of Remix IDE.\n\n```\nvar translate = require(\'solc/translate\')\n\n// assemblyJSON refers to the JSON of the given assembly and sourceCode is the source of which the assembly was generated from\nvar output = translate.prettyPrintLegacyAssemblyJSON(assemblyJSON, sourceCode)\n```\n',
+177 silly resolved     _id: 'solc@0.4.24',
+177 silly resolved     dist: { shasum: 'f995d3de78032f2c1f4c1976c5f0a64c2ae45f2c' },
+177 silly resolved     _from: 'solc@0.4.24' } ]
+178 info install solc@0.4.24 into D:\code\Inbox
+179 info installOne solc@0.4.24
+180 verbose from cache C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package\package.json
+181 info D:\code\Inbox\node_modules\solc unbuild
+182 verbose read json D:\code\Inbox\node_modules\solc\package.json
+183 verbose tar unpack C:\Users\lenovo\AppData\Roaming\npm-cache\solc\0.4.24\package.tgz
+184 silly lockFile 796c79f1-D-code-Inbox-node-modules-solc D:\code\Inbox\node_modules\solc
+185 verbose lock D:\code\Inbox\node_modules\solc C:\Users\lenovo\AppData\Roaming\npm-cache\796c79f1-D-code-Inbox-node-modules-solc.lock
+186 silly gunzTarPerm modes [ '755', '644' ]
+187 silly gunzTarPerm extractEntry package.json
+188 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+189 silly gunzTarPerm extractEntry README.md
+190 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+191 silly gunzTarPerm extractEntry abi.js
+192 silly gunzTarPerm modified mode [ 'abi.js', 438, 420 ]
+193 silly gunzTarPerm extractEntry index.js
+194 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+195 silly gunzTarPerm extractEntry linker.js
+196 silly gunzTarPerm modified mode [ 'linker.js', 438, 420 ]
+197 silly gunzTarPerm extractEntry soljson.js
+198 silly gunzTarPerm modified mode [ 'soljson.js', 438, 420 ]
+199 silly gunzTarPerm extractEntry translate.js
+200 silly gunzTarPerm modified mode [ 'translate.js', 438, 420 ]
+201 silly gunzTarPerm extractEntry wrapper.js
+202 silly gunzTarPerm modified mode [ 'wrapper.js', 438, 420 ]
+203 silly gunzTarPerm extractEntry solcjs
+204 silly gunzTarPerm modified mode [ 'solcjs', 438, 420 ]
+205 verbose read json D:\code\Inbox\node_modules\solc\package.json
+206 silly lockFile 796c79f1-D-code-Inbox-node-modules-solc D:\code\Inbox\node_modules\solc
+207 info preinstall solc@0.4.24
+208 verbose from cache D:\code\Inbox\node_modules\solc\package.json
+209 verbose readDependencies using package.json deps
+210 verbose from cache D:\code\Inbox\node_modules\solc\package.json
+211 verbose readDependencies using package.json deps
+212 verbose cache add [ 'fs-extra@^0.30.0', null ]
+213 silly cache add name=undefined spec="fs-extra@^0.30.0" args=["fs-extra@^0.30.0",null]
+214 verbose parsed url { pathname: 'fs-extra@^0.30.0',
+214 verbose parsed url   path: 'fs-extra@^0.30.0',
+214 verbose parsed url   href: 'fs-extra@^0.30.0' }
+215 silly cache add name="fs-extra" spec="^0.30.0" args=["fs-extra","^0.30.0"]
+216 verbose parsed url { pathname: '^0.30.0', path: '^0.30.0', href: '^0.30.0' }
+217 verbose addNamed [ 'fs-extra', '^0.30.0' ]
+218 verbose addNamed [ null, null ]
+219 silly lockFile dee3025a-fs-extra-0-30-0 fs-extra@^0.30.0
+220 verbose lock fs-extra@^0.30.0 C:\Users\lenovo\AppData\Roaming\npm-cache\dee3025a-fs-extra-0-30-0.lock
+221 verbose cache add [ 'memorystream@^0.3.1', null ]
+222 silly cache add name=undefined spec="memorystream@^0.3.1" args=["memorystream@^0.3.1",null]
+223 verbose parsed url { pathname: 'memorystream@^0.3.1',
+223 verbose parsed url   path: 'memorystream@^0.3.1',
+223 verbose parsed url   href: 'memorystream@^0.3.1' }
+224 silly cache add name="memorystream" spec="^0.3.1" args=["memorystream","^0.3.1"]
+225 verbose parsed url { pathname: '^0.3.1', path: '^0.3.1', href: '^0.3.1' }
+226 verbose addNamed [ 'memorystream', '^0.3.1' ]
+227 verbose addNamed [ null, null ]
+228 silly lockFile 2370ccdb-memorystream-0-3-1 memorystream@^0.3.1
+229 verbose lock memorystream@^0.3.1 C:\Users\lenovo\AppData\Roaming\npm-cache\2370ccdb-memorystream-0-3-1.lock
+230 verbose cache add [ 'require-from-string@^1.1.0', null ]
+231 silly cache add name=undefined spec="require-from-string@^1.1.0" args=["require-from-string@^1.1.0",null]
+232 verbose parsed url { pathname: 'require-from-string@^1.1.0',
+232 verbose parsed url   path: 'require-from-string@^1.1.0',
+232 verbose parsed url   href: 'require-from-string@^1.1.0' }
+233 silly cache add name="require-from-string" spec="^1.1.0" args=["require-from-string","^1.1.0"]
+234 verbose parsed url { pathname: '^1.1.0', path: '^1.1.0', href: '^1.1.0' }
+235 verbose addNamed [ 'require-from-string', '^1.1.0' ]
+236 verbose addNamed [ null, null ]
+237 silly lockFile 1c90fb4e-require-from-string-1-1-0 require-from-string@^1.1.0
+238 verbose lock require-from-string@^1.1.0 C:\Users\lenovo\AppData\Roaming\npm-cache\1c90fb4e-require-from-string-1-1-0.lock
+239 verbose cache add [ 'semver@^5.3.0', null ]
+240 silly cache add name=undefined spec="semver@^5.3.0" args=["semver@^5.3.0",null]
+241 verbose parsed url { pathname: 'semver@^5.3.0',
+241 verbose parsed url   path: 'semver@^5.3.0',
+241 verbose parsed url   href: 'semver@^5.3.0' }
+242 silly cache add name="semver" spec="^5.3.0" args=["semver","^5.3.0"]
+243 verbose parsed url { pathname: '^5.3.0', path: '^5.3.0', href: '^5.3.0' }
+244 verbose addNamed [ 'semver', '^5.3.0' ]
+245 verbose addNamed [ null, null ]
+246 silly lockFile bebcb816-semver-5-3-0 semver@^5.3.0
+247 verbose lock semver@^5.3.0 C:\Users\lenovo\AppData\Roaming\npm-cache\bebcb816-semver-5-3-0.lock
+248 verbose cache add [ 'yargs@^4.7.1', null ]
+249 silly cache add name=undefined spec="yargs@^4.7.1" args=["yargs@^4.7.1",null]
+250 verbose parsed url { pathname: 'yargs@^4.7.1',
+250 verbose parsed url   path: 'yargs@^4.7.1',
+250 verbose parsed url   href: 'yargs@^4.7.1' }
+251 silly cache add name="yargs" spec="^4.7.1" args=["yargs","^4.7.1"]
+252 verbose parsed url { pathname: '^4.7.1', path: '^4.7.1', href: '^4.7.1' }
+253 verbose addNamed [ 'yargs', '^4.7.1' ]
+254 verbose addNamed [ null, null ]
+255 silly lockFile 76fc1a24-yargs-4-7-1 yargs@^4.7.1
+256 verbose lock yargs@^4.7.1 C:\Users\lenovo\AppData\Roaming\npm-cache\76fc1a24-yargs-4-7-1.lock
+257 info addNameTag [ 'fs-extra', '^0.30.0' ]
+258 info addNameTag [ 'memorystream', '^0.3.1' ]
+259 info addNameTag [ 'require-from-string', '^1.1.0' ]
+260 info addNameTag [ 'semver', '^5.3.0' ]
+261 verbose url raw fs-extra
+262 verbose url resolving [ 'https://registry.npm.taobao.org/', './fs-extra' ]
+263 verbose url resolved https://registry.npm.taobao.org/fs-extra
+264 info trying registry request attempt 1 at 15:41:56
+265 http GET https://registry.npm.taobao.org/fs-extra
+266 info addNameTag [ 'yargs', '^4.7.1' ]
+267 verbose url raw memorystream
+268 verbose url resolving [ 'https://registry.npm.taobao.org/', './memorystream' ]
+269 verbose url resolved https://registry.npm.taobao.org/memorystream
+270 info trying registry request attempt 1 at 15:41:56
+271 http GET https://registry.npm.taobao.org/memorystream
+272 verbose url raw require-from-string
+273 verbose url resolving [ 'https://registry.npm.taobao.org/', './require-from-string' ]
+274 verbose url resolved https://registry.npm.taobao.org/require-from-string
+275 info trying registry request attempt 1 at 15:41:56
+276 http GET https://registry.npm.taobao.org/require-from-string
+277 verbose url raw semver
+278 verbose url resolving [ 'https://registry.npm.taobao.org/', './semver' ]
+279 verbose url resolved https://registry.npm.taobao.org/semver
+280 info trying registry request attempt 1 at 15:41:56
+281 http GET https://registry.npm.taobao.org/semver
+282 verbose url raw yargs
+283 verbose url resolving [ 'https://registry.npm.taobao.org/', './yargs' ]
+284 verbose url resolved https://registry.npm.taobao.org/yargs
+285 info trying registry request attempt 1 at 15:41:56
+286 http GET https://registry.npm.taobao.org/yargs
+287 http 200 https://registry.npm.taobao.org/require-from-string
+288 silly registry.get cb [ 200,
+288 silly registry.get   { server: 'Tengine',
+288 silly registry.get     'content-type': 'application/json; charset=utf-8',
+288 silly registry.get     'content-length': '13560',
+288 silly registry.get     connection: 'keep-alive',
+288 silly registry.get     date: 'Sun, 21 Mar 2021 07:41:56 GMT',
+288 silly registry.get     'x-current-requests': '1',
+288 silly registry.get     vary: 'accept, accept-encoding',
+288 silly registry.get     etag: 'W/"990934845db7f3fca128ca6bab47beb6"',
+288 silly registry.get     'cache-control': 'max-age=0, s-maxage=120, must-revalidate',
+288 silly registry.get     'x-readtime': '13',
+288 silly registry.get     via: 'cn24.l1, kunlun1.cn24, l2cn3008.l2, cache6.l2cn3008, izbp112f6me89vdsqxrwfbz, cache6.l2cn3008[20,304-0,M], cache21.l2cn3008[21,0], kunlun1.cn24[22,22,200-0,H], kunlun7.cn24[24,0]',
+288 silly registry.get     'ali-swift-global-savetime': '1616139292',
+288 silly registry.get     age: '0',
+288 silly registry.get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:10:477449852',
+288 silly registry.get     'x-swift-savetime': 'Sun, 21 Mar 2021 07:41:56 GMT',
+288 silly registry.get     'x-swift-cachetime': '120',
+288 silly registry.get     'timing-allow-origin': '*',
+288 silly registry.get     eagleid: '7ae122a716163125164847948e' } ]
+289 silly lockFile 1c90fb4e-require-from-string-1-1-0 require-from-string@^1.1.0
+290 verbose about to build D:\code\Inbox\node_modules\solc
+291 info D:\code\Inbox\node_modules\solc unbuild
+292 verbose from cache D:\code\Inbox\node_modules\solc\package.json
+293 info preuninstall solc@0.4.24
+294 info uninstall solc@0.4.24
+295 verbose true,D:\code\Inbox\node_modules,D:\code\Inbox\node_modules unbuild solc@0.4.24
+296 verbose D:\code\Inbox\node_modules\.bin,[object Object] binRoot
+297 info postuninstall solc@0.4.24
+298 error Error: No compatible version found: require-from-string@'^1.1.0'
+298 error Valid install targets:
+298 error ["2.0.2","1.2.1","1.2.0","1.1.0","1.0.2","1.0.1","1.0.0","2.0.1","2.0.0"]
+298 error     at installTargetsError (C:\Program Files\nodejs\node_modules\npm\lib\cache.js:553:10)
+298 error     at C:\Program Files\nodejs\node_modules\npm\lib\cache.js:477:15
+298 error     at saved (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:138:7)
+298 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:218:7
+298 error     at Object.oncomplete (fs.js:297:15)
+299 error If you need help, you may report this log at:
+299 error     <http://github.com/isaacs/npm/issues>
+299 error or email it to:
+299 error     <npm-@googlegroups.com>
+300 error System Windows_NT 6.2.9200
+301 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "solc@0.4.24"
+302 error cwd D:\code\Inbox
+303 error node -v v0.8.10
+304 error npm -v 1.1.62
+305 verbose exit [ 1, true ]
