@@ -1,4 +1,4 @@
-pragma solidity ^0.4.17.;
+pragma solidity ^0.4.17;
 contract Inbox {
 
     string public message;  //声明变量类型和公开或私有
