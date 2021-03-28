@@ -1,0 +1,21 @@
+const assert = require('assert')
+class Dog{
+    say(){
+        return 'wangwang';
+    }
+    happy(){
+        return'miaomiao';
+    }
+}
+let dog;
+beforeEach(()=>{
+    dog = new Dog()
+})
+describe('测试狗狗',()=>{
+    it('测试狗狗的say方法',()=>{
+        assert.equal(dog.say(),'miaomiao');
+    })
+    it('测试狗狗的happy方法',()=>{
+        assert.equal(dog.happy(),'miaomiao')
+    })
+});
